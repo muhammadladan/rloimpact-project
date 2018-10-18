@@ -1,0 +1,11 @@
+// Initialize Firebase
+var config = {
+	apiKey: "AIzaSyAWFKIfuKTRv3Myou9uEJQsRSx1qtFgaSc",
+    authDomain: "rlo-impact-study.firebaseapp.com",
+    databaseURL: "https://rlo-impact-study.firebaseio.com",
+    projectId: "rlo-impact-study",
+    storageBucket: "rlo-impact-study.appspot.com",
+    messagingSenderId: "274613130213"
+};
+firebase.initializeApp(config);
+var rootRef = firebase.database().ref();
